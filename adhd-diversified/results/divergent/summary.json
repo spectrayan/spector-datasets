@@ -1,0 +1,57 @@
+{
+  "timestamp" : "2026-06-05T23:39:46.047316100Z",
+  "corpus_size" : 12879,
+  "query_count" : 22,
+  "baseline_metrics" : {
+    "ndcg_at_10" : 0.09052535791093058,
+    "mrr_at_10" : 0.17424242424242423,
+    "recall_at_10" : 0.06818181818181818,
+    "avg_latency_ms" : 157.5
+  },
+  "cognitive_metrics" : {
+    "ndcg_at_10" : 0.29620565124611914,
+    "mrr_at_10" : 0.47878787878787876,
+    "recall_at_10" : 0.26704545454545453,
+    "avg_latency_ms" : 157.5
+  },
+  "similarity_metrics" : {
+    "ndcg_at_10" : 0.29308334503238687,
+    "mrr_at_10" : 0.4484848484848485,
+    "recall_at_10" : 0.2727272727272727,
+    "avg_latency_ms" : 157.5
+  },
+  "subsystem_contributions" : {
+    "hebbian_pct" : 18.181818181818183,
+    "temporal_pct" : 27.27272727272727,
+    "entity_pct" : 18.181818181818183,
+    "importance_pct" : 31.818181818181817,
+    "valence_pct" : 0.0,
+    "tag_gating_pct" : 0.0
+  },
+  "per_profile_ndcg" : {
+    "BALANCED" : 0.3123390468579169,
+    "DEBUGGING" : 0.36129043767789254,
+    "RECALLING" : 0.2767678049468666,
+    "CRITICAL" : 0.7927582994933312,
+    "DIVERGENT" : 0.0,
+    "THE_EXECUTOR" : 0.0,
+    "PARANOID_SENTINEL" : 0.4045878367133387,
+    "HYPERFOCUS" : 0.18321615698243887,
+    "SYSTEMATIZER" : 0.30498721858138617
+  },
+  "win_tie_loss" : {
+    "wins" : 14,
+    "ties" : 5,
+    "losses" : 3
+  },
+  "cohens_d" : 0.7585379862333322,
+  "p_value" : 3.7397080028034324E-4,
+  "similarity_vs_baseline" : {
+    "cohens_d" : 0.780794479327489,
+    "p_value" : 2.500747289735372E-4
+  },
+  "cognitive_vs_similarity" : {
+    "cohens_d" : 0.05880712629883524,
+    "p_value" : 0.7826788591366252
+  }
+}

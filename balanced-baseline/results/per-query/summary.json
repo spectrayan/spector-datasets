@@ -1,0 +1,55 @@
+{
+  "timestamp" : "2026-06-05T22:28:20.371791300Z",
+  "corpus_size" : 11367,
+  "query_count" : 19,
+  "baseline_metrics" : {
+    "ndcg_at_10" : 0.10960185342543581,
+    "mrr_at_10" : 0.23684210526315788,
+    "recall_at_10" : 0.07894736842105263,
+    "avg_latency_ms" : 131.10526315789474
+  },
+  "cognitive_metrics" : {
+    "ndcg_at_10" : 0.3106314286035131,
+    "mrr_at_10" : 0.4510025062656642,
+    "recall_at_10" : 0.3092105263157895,
+    "avg_latency_ms" : 131.10526315789474
+  },
+  "similarity_metrics" : {
+    "ndcg_at_10" : 0.31999999899295484,
+    "mrr_at_10" : 0.44223057644110275,
+    "recall_at_10" : 0.3092105263157895,
+    "avg_latency_ms" : 131.10526315789474
+  },
+  "subsystem_contributions" : {
+    "hebbian_pct" : 10.526315789473683,
+    "temporal_pct" : 26.31578947368421,
+    "entity_pct" : 21.052631578947366,
+    "importance_pct" : 5.263157894736842,
+    "valence_pct" : 0.0,
+    "tag_gating_pct" : 0.0
+  },
+  "per_profile_ndcg" : {
+    "BALANCED" : 0.2804110825650453,
+    "DEBUGGING" : 0.31368130796535604,
+    "RECALLING" : 0.21228787677688016,
+    "CRITICAL" : 0.7894685205806788,
+    "DIVERGENT" : 0.0826906321026111,
+    "THE_EXECUTOR" : 0.0,
+    "PARANOID_SENTINEL" : 0.6153109509305994
+  },
+  "win_tie_loss" : {
+    "wins" : 12,
+    "ties" : 4,
+    "losses" : 3
+  },
+  "cohens_d" : 0.6939120337984144,
+  "p_value" : 0.0024889992712204823,
+  "similarity_vs_baseline" : {
+    "cohens_d" : 0.7107386971331622,
+    "p_value" : 0.001948199600152023
+  },
+  "cognitive_vs_similarity" : {
+    "cohens_d" : -0.3489691211888403,
+    "p_value" : 0.1282294847033869
+  }
+}
